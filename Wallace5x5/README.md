@@ -42,10 +42,3 @@ The architecture of the 5x5 Wallace Tree Multiplier consists of the following ke
 - **File**: `top_level_multiplier.sv`
 - **Description**: Integrates all components into a complete 5x5 Wallace tree multiplier.
 
-## Getting Started
-
-### Prerequisites
-
-- **System Requirements**: 
-  - A system capable of running System Verilog simulation tools (e.g., ModelSim, Vivado, or any other compatible simulator).
-
