@@ -41,11 +41,3 @@ The architecture of the 6x6 Wallace Tree Multiplier consists of the following ke
 ### 4. Top-Level Module
 - **File**: `top_level_multiplier.sv`
 - **Description**: Integrates all components into a complete 6x6 Wallace tree multiplier.
-
-## Getting Started
-
-### Prerequisites
-
-- **System Requirements**: 
-  - A system capable of running Verilog simulation tools (e.g., ModelSim, Vivado, or any other compatible simulator).
-
