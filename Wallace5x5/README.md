@@ -3,17 +3,15 @@
 ## Modules
 
 ### 1. Wallace Tree Reduction
-- **File**: `wallace_tree_reduction.sv`
+- **File**: [wallace_tree_reduction.sv](/wallace_tree_reduction.sv)
 - **Description**: This module handles both the generation of partial products and the reduction process. It takes two 5-bit inputs, generates the partial products internally, and reduces them into two rows of sums and carries using combinational logic (no pipelining).
 
 ### 2. Final Adder
-- **File**: `final_adder.sv`
+- **File**: [final_adder.sv](/final_adder.sv)
 - **Description**: Performs the final addition of the reduced sums and carries to produce the final 10-bit product.
 
 ### 3. Top-Level Module
-- **File**: `top_level_multiplier.sv`
+- **File**: [top_level_multiplier.sv](/top_level_multiplier.sv)
 - **Description**: Integrates the Wallace tree reduction and final adder components into a complete 5x5 Wallace tree multiplier, from input to final product output.
 
-## Usage
-The top-level module takes in two 5-bit inputs, generates the partial products within the Wallace tree reduction module, and outputs the 10-bit product after the final addition.
-
+### Hint: Refer to [diagram.md](/diagram.md)
